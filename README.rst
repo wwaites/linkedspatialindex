@@ -12,7 +12,7 @@ To create a new index, a request should be made to:
 
 As in::
 
-    curl --digest -u "user:pass" -d "bucket_id=BUCKET_ID" \
+    curl --digest -u "user:pass" -d "id=INDEX_ID" \
         http://geo.example.org/indexes
 
 which should give a response like::
